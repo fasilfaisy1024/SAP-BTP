@@ -1,0 +1,68 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<VBox class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormChange480_12120"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			title="Home Address"
+			labelSpanXL="4"
+			labelSpanL="4"
+			labelSpanM="12"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="0"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="2"
+			columnsM="1"
+			singleContainerFullSize="false" >
+			<f:content>
+				<core:Title text="            " />
+				<Label text="First Name" />
+				<Input/>
+				<Label text="Email" />
+				<Input value="{EMail}" type="Email" />
+				<core:Title />
+				<Label text="Last Name" />
+				<Input/>
+				<Label text="Phone Number" />
+				<Input/>
+			</f:content>
+		</f:SimpleForm>
+		<f:SimpleForm id="SimpleFormChange480_12120-2"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			title="Office Details"
+			labelSpanXL="4"
+			labelSpanL="4"
+			labelSpanM="12"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="0"
+			emptySpanL="0"
+			emptySpanM="0"
+			emptySpanS="0"
+			columnsXL="2"
+			columnsL="2"
+			columnsM="1"
+			singleContainerFullSize="false">
+			<f:content>
+				<core:Title text="      " />
+				<Label text="Company name" />
+				<Input type="Text"/>
+				<Label text="Company website" />
+				<Input value="{Url}" type="Url" />
+				<Label text="Company Phone number" />
+				<Input value="{Tel}" type="Tel" />
+				<Label text="Company Address" />
+				<Input value="{Textarea}" type="Text" />
+
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
+</core:FragmentDefinition>
