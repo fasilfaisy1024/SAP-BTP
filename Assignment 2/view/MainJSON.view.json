@@ -1,0 +1,10 @@
+{
+    "Type":"sap.ui.core.mvc.view.JSONView",
+    "controllerName":"com.ibm.app.controller.Main",
+    "content":[{
+        "Type":"sap.m.Button",
+        "text":"JSON Button",
+        "press":"onPressJSON",
+        "width":"1250px"
+    }]
+}

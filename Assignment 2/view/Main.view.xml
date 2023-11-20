@@ -1,0 +1,12 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	controllerName="com.ibm.app.controller.Main"
+	>
+	
+	<Button
+			text="XML press"
+			class="sapUiSmallMarginBottom"
+			press="onXMLpress"
+			width="1250px"/>
+</mvc:View>
