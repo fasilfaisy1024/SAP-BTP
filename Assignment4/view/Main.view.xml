@@ -1,0 +1,26 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns:Icon="sap.ui.core.Icon" xmlns:f="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.ibm.sampleapp.controller.Main">
+
+
+	<App>
+		<Page title="Welcome">
+						<headerContent>
+				<Toolbar>
+					<Button text="Register" press="onRegisterPress" icon="sap-icon://add-employee"/>
+				</Toolbar>
+			</headerContent>
+            <content>
+				<VBox>
+					<Label text="Hello...!! Have a Good day :)" class="sapUiLargeMargin" />
+				</VBox>
+			</content>
+			<footer>
+				<Toolbar>
+					<ToolbarSpacer />
+					<Button text="About" />
+					<Button text="Help"  />
+				</Toolbar>
+			</footer>
+		</Page>
+	</App>
+ 
+</mvc:View>

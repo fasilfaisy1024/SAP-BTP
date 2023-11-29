@@ -1,0 +1,3 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.ibm.sampleapp.controller.Main">
+<mvc:XMLView viewName="com.ibm.sampleapp.view.Main"></mvc:XMLView>
+</mvc:View>
