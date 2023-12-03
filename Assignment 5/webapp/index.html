@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>App Title</title>
+    <style>
+        html, body, body > div, #container, #container-uiarea {
+            height: 100%;
+        }
+    </style>
+    <script
+        id="sap-ui-bootstrap"
+        src="https://sapui5.hana.ondemand.com/1.71.60/resources/sap-ui-core.js"
+        data-sap-ui-theme="sap_belize"
+        data-sap-ui-bindingSyntax="complex"
+        data-sap-ui-resourceroots='{
+            "com.sapui5.zpurchase07": "./"
+        }'
+        data-sap-ui-compatVersion="edge"
+        data-sap-ui-async="true"
+        data-sap-ui-frameOptions="trusted"
+    ></script>
+    <script>
+ sap.ui.getCore().attachInit(function(){
+    sap.ui.require(["sap/ui/core/ComponentContainer"],function(ComponentContainer){
+        new ComponentContainer({
+                    name:"com.sapui5.zpurchase07",
+                    height:"100%",
+                    settings:{
+                        id:"com.sapui5.zpurchase07"
+                    }
+                })
+                .placeAt('content')
+
+    })
+               
+        })
+        </script>
+</head>
+<body class="sapUiBody sapUiSizeCompact" id="content">
+    <!-- <div
+        data-sap-ui-component
+        data-name="com.sapui5.zpurchasemd09"
+        data-id="container"
+        data-settings='{"id" : "com.sapui5.zpurchasemd09"}'
+        data-handle-validation="true"
+    ></div> -->
+</body>
+</html>
